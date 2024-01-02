@@ -1,0 +1,1212 @@
+[
+    {
+        "name": "Afghanistan",
+        "nameAr": "أفغانستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Åland Islands",
+        "nameAr": "جزر آلاند",
+        "continent": "Europe"
+    },
+    {
+        "name": "Albania",
+        "nameAr": "ألبانيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Algeria",
+        "nameAr": "الجزائر",
+        "continent": "Africa"
+    },
+    {
+        "name": "American Samoa",
+        "nameAr": "ساموا الأمريكية",
+        "continent": "Oceania"
+    },
+    {
+        "name": "AndorrA",
+        "nameAr": "أندورا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Angola",
+        "nameAr": "أنغولا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Anguilla",
+        "nameAr": "أنغويلا",
+        "continent": "North America"
+    },
+    {
+        "name": "Antarctica",
+        "nameAr": "القطب الجنوبي",
+        "continent": "Antarctica"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "nameAr": "أنتيغوا وبربودا",
+        "continent": "North America"
+    },
+    {
+        "name": "Argentina",
+        "nameAr": "الأرجنتين",
+        "continent": "South America"
+    },
+    {
+        "name": "Armenia",
+        "nameAr": "أرمينيا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Aruba",
+        "nameAr": "أروبا",
+        "continent": "North America"
+    },
+    {
+        "name": "Australia",
+        "nameAr": "أستراليا",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Austria",
+        "nameAr": "النمسا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Azerbaijan",
+        "nameAr": "أذربيجان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Bahamas",
+        "nameAr": "الباهاما",
+        "continent": "North America"
+    },
+    {
+        "name": "Bahrain",
+        "nameAr": "البحرين",
+        "continent": "Asia"
+    },
+    {
+        "name": "Bangladesh",
+        "nameAr": "بنغلاديش",
+        "continent": "Asia"
+    },
+    {
+        "name": "Barbados",
+        "nameAr": "بربادوس",
+        "continent": "North America"
+    },
+    {
+        "name": "Belarus",
+        "nameAr": "بيلاروس",
+        "continent": "Europe"
+    },
+    {
+        "name": "Belgium",
+        "nameAr": "بلجيكا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Belize",
+        "nameAr": "بليز",
+        "continent": "North America"
+    },
+    {
+        "name": "Benin",
+        "nameAr": "بنين",
+        "continent": "Africa"
+    },
+    {
+        "name": "Bermuda",
+        "nameAr": "برمودا",
+        "continent": "North America"
+    },
+    {
+        "name": "Bhutan",
+        "nameAr": "بوتان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Bolivia",
+        "nameAr": "بوليفيا",
+        "continent": "South America"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "nameAr": "البوسنة والهرسك",
+        "continent": "Europe"
+    },
+    {
+        "name": "Botswana",
+        "nameAr": "بوتسوانا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Bouvet Island",
+        "nameAr": "جزيرة بوفيه",
+        "continent": "Antarctica"
+    },
+    {
+        "name": "Brazil",
+        "nameAr": "البرازيل",
+        "continent": "South America"
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "nameAr": "إقليم المحيط الهندي البريطاني",
+        "continent": "Asia"
+    },
+    {
+        "name": "Brunei Darussalam",
+        "nameAr": "بروناي دار السلام",
+        "continent": "Asia"
+    },
+    {
+        "name": "Bulgaria",
+        "nameAr": "بلغاريا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Burkina Faso",
+        "nameAr": "بوركينا فاسو",
+        "continent": "Africa"
+    },
+    {
+        "name": "Burundi",
+        "nameAr": "بوروندي",
+        "continent": "Africa"
+    },
+    {
+        "name": "Cambodia",
+        "nameAr": "كمبوديا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Cameroon",
+        "nameAr": "الكاميرون",
+        "continent": "Africa"
+    },
+    {
+        "name": "Canada",
+        "nameAr": "كندا",
+        "continent": "North America"
+    },
+    {
+        "name": "Cape Verde",
+        "nameAr": "الرأس الأخضر",
+        "continent": "Africa"
+    },
+    {
+        "name": "Cayman Islands",
+        "nameAr": "جزر كايمان",
+        "continent": "North America"
+    },
+    {
+        "name": "Central African Republic",
+        "nameAr": "جمهورية أفريقيا الوسطى",
+        "continent": "Africa"
+    },
+    {
+        "name": "Chad",
+        "nameAr": "تشاد",
+        "continent": "Africa"
+    },
+    {
+        "name": "Chile",
+        "nameAr": "شيلي",
+        "continent": "South America"
+    },
+    {
+        "name": "China",
+        "nameAr": "الصين",
+        "continent": "Asia"
+    },
+    {
+        "name": "Christmas Island",
+        "nameAr": "جزيرة الكريسماس",
+        "continent": "Asia"
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "nameAr": "جزر كوكوس (كيلينغ)",
+        "continent": "Asia"
+    },
+    {
+        "name": "Colombia",
+        "nameAr": "كولومبيا",
+        "continent": "South America"
+    },
+    {
+        "name": "Comoros",
+        "nameAr": "جزر القمر",
+        "continent": "Africa"
+    },
+    {
+        "name": "Congo",
+        "nameAr": "الكونغو",
+        "continent": "Africa"
+    },
+    {
+        "name": "Congo, The Democratic Republic of the",
+        "nameAr": "جمهورية الكونغو الديمقراطية",
+        "continent": "Africa"
+    },
+    {
+        "name": "Cook Islands",
+        "nameAr": "جزر كوك",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Costa Rica",
+        "nameAr": "كوستاريكا",
+        "continent": "North America"
+    },
+    {
+        "name": "Cote D'Ivoire",
+        "nameAr": "ساحل العاج",
+        "continent": "Africa"
+    },
+    {
+        "name": "Croatia",
+        "nameAr": "كرواتيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Cuba",
+        "nameAr": "كوبا",
+        "continent": "North America"
+    },
+    {
+        "name": "Cyprus",
+        "nameAr": "قبرص",
+        "continent": "Europe"
+    },
+    {
+        "name": "Czech Republic",
+        "nameAr": "الجمهورية التشيكية",
+        "continent": "Europe"
+    },
+    {
+        "name": "Denmark",
+        "nameAr": "الدانمارك",
+        "continent": "Europe"
+    },
+    {
+        "name": "Djibouti",
+        "nameAr": "جيبوتي",
+        "continent": "Africa"
+    },
+    {
+        "name": "Dominica",
+        "nameAr": "دومينيكا",
+        "continent": "North America"
+    },
+    {
+        "name": "Dominican Republic",
+        "nameAr": "جمهورية الدومينيكان",
+        "continent": "North America"
+    },
+    {
+        "name": "Ecuador",
+        "nameAr": "الإكوادور",
+        "continent": "South America"
+    },
+    {
+        "name": "Egypt",
+        "nameAr": "مصر",
+        "continent": "Africa"
+    },
+    {
+        "name": "El Salvador",
+        "nameAr": "السلفادور",
+        "continent": "North America"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "nameAr": "غينيا الاستوائية",
+        "continent": "Africa"
+    },
+    {
+        "name": "Eritrea",
+        "nameAr": "إريتريا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Estonia",
+        "nameAr": "إستونيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Ethiopia",
+        "nameAr": "إثيوبيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Falkland Islands (Malvinas)",
+        "nameAr": "جزر فوكلاند (مالفيناس)",
+        "continent": "South America"
+    },
+    {
+        "name": "Faroe Islands",
+        "nameAr": "جزر فارو",
+        "continent": "Europe"
+    },
+    {
+        "name": "Fiji",
+        "nameAr": "فيجي",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Finland",
+        "nameAr": "فنلندا",
+        "continent": "Europe"
+    },
+    {
+        "name": "France",
+        "nameAr": "فرنسا",
+        "continent": "Europe"
+    },
+    {
+        "name": "French Guiana",
+        "nameAr": "غويانا الفرنسية",
+        "continent": "South America"
+    },
+    {
+        "name": "French Polynesia",
+        "nameAr": "بولينيزيا الفرنسية",
+        "continent": "Oceania"
+    },
+    {
+        "name": "French Southern Territories",
+        "nameAr": "الأقاليم الجنوبية لفرنسا",
+        "continent": "Antarctica"
+    },
+    {
+        "name": "Gabon",
+        "nameAr": "الغابون",
+        "continent": "Africa"
+    },
+    {
+        "name": "Gambia",
+        "nameAr": "غامبيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Georgia",
+        "nameAr": "جورجيا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Germany",
+        "nameAr": "ألمانيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Ghana",
+        "nameAr": "غانا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Gibraltar",
+        "nameAr": "جبل طارق",
+        "continent": "Europe"
+    },
+    {
+        "name": "Greece",
+        "nameAr": "اليونان",
+        "continent": "Europe"
+    },
+    {
+        "name": "Greenland",
+        "nameAr": "جرينلاند",
+        "continent": "North America"
+    },
+    {
+        "name": "Grenada",
+        "nameAr": "غرينادا",
+        "continent": "North America"
+    },
+    {
+        "name": "Guadeloupe",
+        "nameAr": "جوادلوب",
+        "continent": "North America"
+    },
+    {
+        "name": "Guam",
+        "nameAr": "غوام",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Guatemala",
+        "nameAr": "غواتيمالا",
+        "continent": "North America"
+    },
+    {
+        "name": "Guernsey",
+        "nameAr": "غيرنسي",
+        "continent": "Europe"
+    },
+    {
+        "name": "Guinea",
+        "nameAr": "غينيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "nameAr": "غينيا بيساو",
+        "continent": "Africa"
+    },
+    {
+        "name": "Guyana",
+        "nameAr": "غيانا",
+        "continent": "South America"
+    },
+    {
+        "name": "Haiti",
+        "nameAr": "هايتي",
+        "continent": "North America"
+    },
+    {
+        "name": "Heard Island and Mcdonald Islands",
+        "nameAr": "جزيرة هيرد وجزر ماكدونالد",
+        "continent": "Antarctica"
+    },
+    {
+        "name": "Holy See (Vatican City State)",
+        "nameAr": "الكرسي الرسولي (دولة الفاتيكان)",
+        "continent": "Europe"
+    },
+    {
+        "name": "Honduras",
+        "nameAr": "هندوراس",
+        "continent": "North America"
+    },
+    {
+        "name": "Hong Kong",
+        "nameAr": "هونغ كونغ",
+        "continent": "Asia"
+    },
+    {
+        "name": "Hungary",
+        "nameAr": "هنغاريا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Iceland",
+        "nameAr": "أيسلندا",
+        "continent": "Europe"
+    },
+    {
+        "name": "India",
+        "nameAr": "الهند",
+        "continent": "Asia"
+    },
+    {
+        "name": "Indonesia",
+        "nameAr": "إندونيسيا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Iran, Islamic Republic Of",
+        "nameAr": "جمهورية إيران الإسلامية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Iraq",
+        "nameAr": "العراق",
+        "continent": "Asia"
+    },
+    {
+        "name": "Ireland",
+        "nameAr": "أيرلندا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Isle of Man",
+        "nameAr": "جزيرة مان",
+        "continent": "Europe"
+    },
+    {
+        "name": "Italy",
+        "nameAr": "إيطاليا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Jamaica",
+        "nameAr": "جامايكا",
+        "continent": "North America"
+    },
+    {
+        "name": "Japan",
+        "nameAr": "اليابان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Jersey",
+        "nameAr": "جيرسي",
+        "continent": "Europe"
+    },
+    {
+        "name": "Jordan",
+        "nameAr": "الأردن",
+        "continent": "Asia"
+    },
+    {
+        "name": "Kazakhstan",
+        "nameAr": "كازاخستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Kenya",
+        "nameAr": "كينيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Kiribati",
+        "nameAr": "كيريباتي",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Korea, Democratic People\"S Republic of",
+        "nameAr": "كوريا، جمهورية الشعب الديمقراطية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Korea, Republic of",
+        "nameAr": "كوريا، جمهورية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Kuwait",
+        "nameAr": "الكويت",
+        "continent": "Asia"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "nameAr": "قيرغيزستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Lao People\"S Democratic Republic",
+        "nameAr": "جمهورية لاو الديمقراطية الشعبية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Latvia",
+        "nameAr": "لاتفيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Lebanon",
+        "nameAr": "لبنان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Lesotho",
+        "nameAr": "ليسوتو",
+        "continent": "Africa"
+    },
+    {
+        "name": "Liberia",
+        "nameAr": "ليبيريا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Libyan Arab Jamahiriya",
+        "nameAr": "الجماهيرية العربية الليبية",
+        "continent": "Africa"
+    },
+    {
+        "name": "Liechtenstein",
+        "nameAr": "ليختنشتاين",
+        "continent": "Europe"
+    },
+    {
+        "name": "Lithuania",
+        "nameAr": "ليتوانيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Luxembourg",
+        "nameAr": "لوكسمبورغ",
+        "continent": "Europe"
+    },
+    {
+        "name": "Macao",
+        "nameAr": "ماكاو",
+        "continent": "Asia"
+    },
+    {
+        "name": "Macedonia, The Former Yugoslav Republic of",
+        "nameAr": "مقدونيا، جمهورية يوغوسلافيا السابقة",
+        "continent": "Europe"
+    },
+    {
+        "name": "Madagascar",
+        "nameAr": "مدغشقر",
+        "continent": "Africa"
+    },
+    {
+        "name": "Malawi",
+        "nameAr": "ملاوي",
+        "continent": "Africa"
+    },
+    {
+        "name": "Malaysia",
+        "nameAr": "ماليزيا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Maldives",
+        "nameAr": "المالديف",
+        "continent": "Asia"
+    },
+    {
+        "name": "Mali",
+        "nameAr": "مالي",
+        "continent": "Africa"
+    },
+    {
+        "name": "Malta",
+        "nameAr": "مالطا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Marshall Islands",
+        "nameAr": "جزر مارشال",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Martinique",
+        "nameAr": "مارتينيك",
+        "continent": "North America"
+    },
+    {
+        "name": "Mauritania",
+        "nameAr": "موريتانيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Mauritius",
+        "nameAr": "موريشيوس",
+        "continent": "Africa"
+    },
+    {
+        "name": "Mayotte",
+        "nameAr": "مايوت",
+        "continent": "Africa"
+    },
+    {
+        "name": "Mexico",
+        "nameAr": "المكسيك",
+        "continent": "North America"
+    },
+    {
+        "name": "Micronesia, Federated States of",
+        "nameAr": "ميكرونيزيا، ولايات موحدة",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Moldova, Republic of",
+        "nameAr": "مولدوفا، جمهورية",
+        "continent": "Europe"
+    },
+    {
+        "name": "Monaco",
+        "nameAr": "موناكو",
+        "continent": "Europe"
+    },
+    {
+        "name": "Mongolia",
+        "nameAr": "منغوليا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Montserrat",
+        "nameAr": "مونتسيرات",
+        "continent": "North America"
+    },
+    {
+        "name": "Morocco",
+        "nameAr": "المغرب",
+        "continent": "Africa"
+    },
+    {
+        "name": "Mozambique",
+        "nameAr": "موزمبيق",
+        "continent": "Africa"
+    },
+    {
+        "name": "Myanmar",
+        "nameAr": "ميانمار",
+        "continent": "Asia"
+    },
+    {
+        "name": "Namibia",
+        "nameAr": "ناميبيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Nauru",
+        "nameAr": "ناورو",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Nepal",
+        "nameAr": "نيبال",
+        "continent": "Asia"
+    },
+    {
+        "name": "Netherlands",
+        "nameAr": "هولندا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Netherlands Antilles",
+        "nameAr": "جزر الأنتيل الهولندية",
+        "continent": "North America"
+    },
+    {
+        "name": "New Caledonia",
+        "nameAr": "كاليدونيا الجديدة",
+        "continent": "Oceania"
+    },
+    {
+        "name": "New Zealand",
+        "nameAr": "نيوزيلندا",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Nicaragua",
+        "nameAr": "نيكاراغوا",
+        "continent": "North America"
+    },
+    {
+        "name": "Niger",
+        "nameAr": "النيجر",
+        "continent": "Africa"
+    },
+    {
+        "name": "Nigeria",
+        "nameAr": "نيجيريا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Niue",
+        "nameAr": "نيوي",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Norfolk Island",
+        "nameAr": "جزيرة نورفولك",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "nameAr": "جزر ماريانا الشمالية",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Norway",
+        "nameAr": "النرويج",
+        "continent": "Europe"
+    },
+    {
+        "name": "Oman",
+        "nameAr": "عُمان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Pakistan",
+        "nameAr": "باكستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Palau",
+        "nameAr": "بالاو",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Palestinian Territory, Occupied",
+        "nameAr": "الأراضي الفلسطينية المحتلة",
+        "continent": "Asia"
+    },
+    {
+        "name": "Panama",
+        "nameAr": "بنما",
+        "continent": "North America"
+    },
+    {
+        "name": "Papua New Guinea",
+        "nameAr": "بابوا غينيا الجديدة",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Paraguay",
+        "nameAr": "باراغواي",
+        "continent": "South America"
+    },
+    {
+        "name": "Peru",
+        "nameAr": "بيرو",
+        "continent": "South America"
+    },
+    {
+        "name": "Philippines",
+        "nameAr": "الفلبين",
+        "continent": "Asia"
+    },
+    {
+        "name": "Pitcairn",
+        "nameAr": "بيتكيرن",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Poland",
+        "nameAr": "بولندا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Portugal",
+        "nameAr": "البرتغال",
+        "continent": "Europe"
+    },
+    {
+        "name": "Puerto Rico",
+        "nameAr": "بورتوريكو",
+        "continent": "North America"
+    },
+    {
+        "name": "Qatar",
+        "nameAr": "قطر",
+        "continent": "Asia"
+    },
+    {
+        "name": "Reunion",
+        "nameAr": "لا ريونيون",
+        "continent": "Africa"
+    },
+    {
+        "name": "Romania",
+        "nameAr": "رومانيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Russian Federation",
+        "nameAr": "الاتحاد الروسي",
+        "continent": "Europe"
+    },
+    {
+        "name": "RWANDA",
+        "nameAr": "رواندا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Saint Helena",
+        "nameAr": "سانت هيلانة",
+        "continent": "Africa"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "nameAr": "سانت كيتس ونيفيس",
+        "continent": "North America"
+    },
+    {
+        "name": "Saint Lucia",
+        "nameAr": "سانت لوسيا",
+        "continent": "North America"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "nameAr": "سانت بيير وميكلون",
+        "continent": "North America"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "nameAr": "سانت فنسنت والغرينادين",
+        "continent": "North America"
+    },
+    {
+        "name": "Samoa",
+        "nameAr": "ساموا",
+        "continent": "Oceania"
+    },
+    {
+        "name": "San Marino",
+        "nameAr": "سان مارينو",
+        "continent": "Europe"
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "nameAr": "ساو تومي وبرينسيبي",
+        "continent": "Africa"
+    },
+    {
+        "name": "Saudi Arabia",
+        "nameAr": "المملكة العربية السعودية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Senegal",
+        "nameAr": "السنغال",
+        "continent": "Africa"
+    },
+    {
+        "name": "Serbia and Montenegro",
+        "nameAr": "صربيا والجبل الأسود",
+        "continent": "Europe"
+    },
+    {
+        "name": "Seychelles",
+        "nameAr": "سيشيل",
+        "continent": "Africa"
+    },
+    {
+        "name": "Sierra Leone",
+        "nameAr": "سيراليون",
+        "continent": "Africa"
+    },
+    {
+        "name": "Singapore",
+        "nameAr": "سنغافورة",
+        "continent": "Asia"
+    },
+    {
+        "name": "Slovakia",
+        "nameAr": "سلوفاكيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Slovenia",
+        "nameAr": "سلوفينيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Solomon Islands",
+        "nameAr": "جزر سليمان",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Somalia",
+        "nameAr": "الصومال",
+        "continent": "Africa"
+    },
+    {
+        "name": "South Africa",
+        "nameAr": "جنوب أفريقيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "nameAr": "جورجيا الجنوبية وجزر ساندويتش الجنوبية",
+        "continent": "Antarctica"
+    },
+    {
+        "name": "Spain",
+        "nameAr": "إسبانيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Sri Lanka",
+        "nameAr": "سريلانكا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Sudan",
+        "nameAr": "السودان",
+        "continent": "Africa"
+    },
+    {
+        "name": "Suriname",
+        "nameAr": "سورينام",
+        "continent": "South America"
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "nameAr": "سفالبارد ويان ماين",
+        "continent": "Europe"
+    },
+    {
+        "name": "Swaziland",
+        "nameAr": "سوازيلاند",
+        "continent": "Africa"
+    },
+    {
+        "name": "Sweden",
+        "nameAr": "السويد",
+        "continent": "Europe"
+    },
+    {
+        "name": "Switzerland",
+        "nameAr": "سويسرا",
+        "continent": "Europe"
+    },
+    {
+        "name": "Syrian Arab Republic",
+        "nameAr": "الجمهورية العربية السورية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Taiwan, Province of China",
+        "nameAr": "تايوان، إقليم الصين",
+        "continent": "Asia"
+    },
+    {
+        "name": "Tajikistan",
+        "nameAr": "طاجيكستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Tanzania, United Republic of",
+        "nameAr": "تنزانيا، جمهورية متحدة",
+        "continent": "Africa"
+    },
+    {
+        "name": "Thailand",
+        "nameAr": "تايلاند",
+        "continent": "Asia"
+    },
+    {
+        "name": "Timor-Leste",
+        "nameAr": "تيمور الشرقية",
+        "continent": "Asia"
+    },
+    {
+        "name": "Togo",
+        "nameAr": "توغو",
+        "continent": "Africa"
+    },
+    {
+        "name": "Tokelau",
+        "nameAr": "توكيلاو",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Tonga",
+        "nameAr": "تونغا",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "nameAr": "ترينيداد وتوباغو",
+        "continent": "North America"
+    },
+    {
+        "name": "Tunisia",
+        "nameAr": "تونس",
+        "continent": "Africa"
+    },
+    {
+        "name": "Turkey",
+        "nameAr": "تركيا",
+        "continent": "Asia"
+    },
+    {
+        "name": "Turkmenistan",
+        "nameAr": "تركمانستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "nameAr": "جزر تركس وكايكوس",
+        "continent": "North America"
+    },
+    {
+        "name": "Tuvalu",
+        "nameAr": "توفالو",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Uganda",
+        "nameAr": "أوغندا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Ukraine",
+        "nameAr": "أوكرانيا",
+        "continent": "Europe"
+    },
+    {
+        "name": "United Arab Emirates",
+        "nameAr": "الإمارات العربية المتحدة",
+        "continent": "Asia"
+    },
+    {
+        "name": "United Kingdom",
+        "nameAr": "المملكة المتحدة",
+        "continent": "Europe"
+    },
+    {
+        "name": "United States",
+        "nameAr": "الولايات المتحدة",
+        "continent": "North America"
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "nameAr": "الجزر البعيدة الصغيرة للولايات المتحدة",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Uruguay",
+        "nameAr": "أوروغواي",
+        "continent": "South America"
+    },
+    {
+        "name": "Uzbekistan",
+        "nameAr": "أوزبكستان",
+        "continent": "Asia"
+    },
+    {
+        "name": "Vanuatu",
+        "nameAr": "فانواتو",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Venezuela",
+        "nameAr": "فنزويلا",
+        "continent": "South America"
+    },
+    {
+        "name": "Viet Nam",
+        "nameAr": "فيتنام",
+        "continent": "Asia"
+    },
+    {
+        "name": "Virgin Islands, British",
+        "nameAr": "جزر العذراء البريطانية",
+        "continent": "North America"
+    },
+    {
+        "name": "Virgin Islands, U.S.",
+        "nameAr": "جزر العذراء الأمريكية",
+        "continent": "North America"
+    },
+    {
+        "name": "Wallis and Futuna",
+        "nameAr": "واليس وفوتونا",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Western Sahara",
+        "nameAr": "الصحراء الغربية",
+        "continent": "Africa"
+    },
+    {
+        "name": "Yemen",
+        "nameAr": "اليمن",
+        "continent": "Asia"
+    },
+    {
+        "name": "Zambia",
+        "nameAr": "زامبيا",
+        "continent": "Africa"
+    },
+    {
+        "name": "Zimbabwe",
+        "nameAr": "زيمبابوي",
+        "continent": "Africa"
+    }
+]
