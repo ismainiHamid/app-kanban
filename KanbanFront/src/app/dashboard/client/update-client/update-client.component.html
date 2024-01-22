@@ -1,0 +1,55 @@
+<button mat-mini-fab class="shadow-none bg-warning" (click)="findById(clientId)" data-bs-toggle="modal"
+        attr.data-bs-target="#updateModal_{{clientId}}">
+  <i class="bi bi-pencil" style="font-size: 12px;"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" [id]="'updateModal_' + clientId" tabindex="-1" data-bs-backdrop="static"
+     aria-labelledby="updateModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <form (ngSubmit)="update(clientForm)" #clientForm="ngForm">
+        <div class="modal-body">
+          <div class="card border-0">
+            <div class="card-body p-0">
+              <h2 class="fw-bold text-start mb-4">Update client ({{ client.name }})</h2>
+
+              <input type="text" [value]="client.id" name="id" [(ngModel)]="client.id" #id="ngModel" hidden="hidden">
+
+              <div class="form-floating mb-4">
+                <input type="text" class="form-control border-2" id="nameInput" name="name" placeholder="Name"
+                       [(ngModel)]="client.name" #name="ngModel" [required]="true">
+                <label for="nameInput">Name</label>
+              </div>
+
+              <div class="form-floating mb-4">
+                <input class="form-control border-2" id="countryInput" name="country" placeholder="Country"
+                       [(ngModel)]="client.country" #country="ngModel" list="countryOptions" [required]="true">
+                <datalist id="countryOptions">
+                  <option *ngFor="let country of countries" [value]="country.name">
+                </datalist>
+                <label for="countryInput">Country</label>
+              </div>
+
+              <div class="form-floating">
+                <input type="number" class="form-control border-2" id="budgetInput" name="budget" placeholder="Budget"
+                       [(ngModel)]="client.budget" #budget="ngModel" [required]="true">
+                <label for="budgetInput">Budget</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-0">
+          <button mat-raised-button type="button" class="bg-secondary rounded shadow-none" data-bs-dismiss="modal">
+            <i class="bi bi-x-lg me-2"></i>Close
+          </button>
+
+          <button mat-raised-button type="submit" class="bg-warning text-dark rounded shadow-none"
+                  data-bs-dismiss="modal">
+            <i class="bi bi-floppy me-2"></i>Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

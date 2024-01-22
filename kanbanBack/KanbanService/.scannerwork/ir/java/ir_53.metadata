@@ -1,3 +1,0 @@
-ma.kanban.controller.GenericController#update(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;
-==
-update ma.kanban.services.GenericService#update(Lma/kanban/utils/IParent;)Lma/kanban/utils/IParent;

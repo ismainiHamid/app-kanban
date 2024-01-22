@@ -1,3 +1,0 @@
-ma.profile.controllers.GenericController#delete(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;
-==
-delete ma.profile.services.GenericService#delete(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;

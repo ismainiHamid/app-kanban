@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ma.eureka</groupId>
-    <artifactId>EurekaService</artifactId>
+    <artifactId>EurekaServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>EurekaService</name>
     <description>EurekaService</description>

@@ -1,3 +1,0 @@
-ma.project.controllers.GenericController#delete(Ljava/lang/String;)Lma/project/utils/IParent;
-==
-delete ma.project.services.GenericService#delete(Ljava/lang/String;)Lma/project/utils/IParent;

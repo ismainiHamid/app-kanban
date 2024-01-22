@@ -68,16 +68,6 @@
   </div>
 
   <div class="card-footer bg-white text-center px-3 pt-0 pb-3 border-0">
-    <button (click)="showForm()"
-            [ngClass]="(!addUser ? 'add-active' : '') + ' btn btn-sm py-1 btn-create rounded-1 w-100'">
-      <span [ngClass]="(addUser ? 'd-flex align-items-center justify-content-center' : '')" [hidden]="!addUser">
-        <i class="bi bi-plus me-2"></i>
-        Add new client
-      </span>
-      <span [ngClass]="(!addUser ? 'd-flex align-items-center justify-content-center' : '')" [hidden]="addUser">
-        <i class="bi bi-dash me-2"></i>
-        Hide client form
-      </span>
-    </button>
+
   </div>
 </div>

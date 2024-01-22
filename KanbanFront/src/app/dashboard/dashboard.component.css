@@ -1,8 +1,7 @@
 .side-navbar {
-  position: fixed;
   height: 100vh;
   overflow-y: auto;;
-  background-color: #00ACC1;
+  background-color: #344A53;
 }
 
 .side-navbar .header-nav {
@@ -28,11 +27,11 @@
   font-weight: 500;
   padding: .75rem 1rem;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 10%);
+  border-bottom: 1px solid rgba(255, 255, 255, 5%);
 }
 
 .side-navbar .nav-list-item .nav-item:first-child .nav-link {
-  border-top: 1px solid rgba(255, 255, 255, 10%);
+  border-top: 1px solid rgba(255, 255, 255, 5%);
 }
 
 .side-navbar .nav-list-item .nav-item .nav-link > i {
@@ -42,12 +41,12 @@
 
 .side-navbar .nav-list-item .nav-item:hover,
 .side-navbar .nav-list-item .nav-item.active {
-  background-color: rgba(255, 255, 255, 20%);
+  background-color: rgba(255, 255, 255, 10%);
 }
 
 .side-navbar .nav-list-item .nav-item .nav-link:hover,
 .side-navbar .nav-list-item .nav-item.active .nav-link {
-  color: rgba(255, 255, 255, 90%) !important;
+  color: rgba(255, 255, 255, 80%) !important;
 }
 
 .navbar {

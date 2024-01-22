@@ -19,7 +19,7 @@ public class GatewayServiceApplication {
     public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route("profiling-manage", r -> r
-                        .path("/api/profiling-manage/**")
+                        .path("/api/auth-service/**")
                         .uri("http://localhost:6060")
 
                 )

@@ -1,0 +1,70 @@
+<button mat-raised-button color="primary" class="w-100 shadow-none" data-bs-toggle="modal"
+        data-bs-target="#saveModal" style="height: 40px;">
+  <i class="bi bi-plus-lg me-2"></i>
+  Add new
+</button>
+
+<div class="modal fade" id="saveModal" tabindex="-1" data-bs-backdrop="static" aria-labelledby="saveModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <form [formGroup]="formClient" (ngSubmit)="save(clientForm)" #clientForm="ngForm">
+        <div class="modal-body">
+          <div class="card border-0">
+            <div class="card-body p-0">
+              <h2 class="fw-bold text-start mb-4">Add client</h2>
+
+              <div class="form-floating mb-4">
+                <input type="text" id="nameInput" placeholder="Name" formControlName="name"
+                       [ngClass]="(formClient.controls['name'].errors  ? 'is-invalid' : 'is-valid') + ' form-control border-2'"
+                       minlength="2" maxlength="25" required>
+                <label for="nameInput">Name</label>
+
+                <span *ngIf="formClient.controls['name'].errors" class="small text-danger p-1">
+                  Field required, Length min : 2 - max : 25.
+                </span>
+              </div>
+
+              <div class="form-floating mb-4">
+                <input class="form-control border-2" id="countryInput" formControlName="country" placeholder="Country"
+                       [ngClass]="(formClient.controls['country'].errors  ? 'is-invalid' : 'is-valid') + ' form-control border-2'"
+                       list="countryOptions" minlength="4" maxlength="25" required>
+                <datalist id="countryOptions">
+                  <option *ngFor="let country of countries" [value]="country.name + ' | ' + country.nameAr">
+                </datalist>
+                <label for="countryInput">Country</label>
+
+                <span *ngIf="formClient.controls['country'].errors" class="small text-danger p-1">
+                  Field required, Length min : 4 - max : 25.
+                </span>
+              </div>
+
+              <div class="form-floating">
+                <input type="number" id="budgetInput" formControlName="budget" placeholder="Budget"
+                       [ngClass]="(formClient.controls['budget'].errors  ? 'is-invalid' : 'is-valid') + ' form-control border-2'"
+                       min="10000" maxlength="100000000000" required>
+                <label for="budgetInput">Budget</label>
+
+                <span *ngIf="formClient.controls['budget'].errors" class="small text-danger p-1">
+                  Field required, Budget min : 10.000 - max : 10.E<sup>10</sup>.
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer border-0">
+          <button mat-raised-button type="reset" class="bg-secondary rounded shadow-none" data-bs-dismiss="modal">
+            <i class="bi bi-x-lg me-2"></i>Close
+          </button>
+
+          <button mat-raised-button color="primary" type="submit" class="rounded shadow-none" data-bs-dismiss="modal"
+                  [disabled]="!formClient.valid">
+            <i class="bi bi-floppy me-2"></i>Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

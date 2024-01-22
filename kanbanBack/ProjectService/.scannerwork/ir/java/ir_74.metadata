@@ -1,3 +1,0 @@
-ma.project.controllers.GenericController#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;
-==
-save ma.project.services.GenericService#save(Lma/project/utils/IParent;)Lma/project/utils/IParent;

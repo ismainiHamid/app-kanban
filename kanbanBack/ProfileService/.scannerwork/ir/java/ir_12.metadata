@@ -1,3 +1,0 @@
-ma.profile.controllers.GenericController#save(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;
-==
-save ma.profile.services.GenericService#save(Lma/profile/utils/IParent;)Lma/profile/utils/IParent;

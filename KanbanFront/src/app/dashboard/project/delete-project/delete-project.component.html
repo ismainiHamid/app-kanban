@@ -1,0 +1,35 @@
+<button mat-mini-fab color="warn" class="shadow-none" data-bs-toggle="modal"
+        attr.data-bs-target="#deleteModal_{{projectId}}">
+  <i class="bi bi-trash"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" [id]="'deleteModal_' + projectId" tabindex="-1" data-bs-backdrop="static"
+     aria-labelledby="deleteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="card border-0">
+          <div class="card-body p-0">
+            <h2 class="fw-bold text-start mb-4">Delete warning</h2>
+
+            <p class="text-start m-0">
+              Pleas confirm us, do you really want to delete the project :
+              <span class="text-danger fw-bold">{{ project.name + ' (' + project.client?.name + ')' }}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button mat-raised-button type="button" class="bg-secondary rounded shadow-none" data-bs-dismiss="modal">
+          <i class="bi bi-x-lg me-2"></i>Close
+        </button>
+
+        <button mat-raised-button color="warn" type="button" (click)="delete()"
+                class="rounded shadow-none" data-bs-dismiss="modal">
+          <i class="bi bi-trash me-2"></i>Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,0 @@
-ma.kanban.controller.GenericController#findAll()Ljava/util/List;
-==
-findAll ma.kanban.services.GenericService#findAll()Ljava/util/List;

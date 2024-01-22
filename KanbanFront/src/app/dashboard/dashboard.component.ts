@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, ComponentFactoryResolver} from '@angular/core';
 import {Router} from "@angular/router";
+import {ProjectComponent} from "./project/project.component";
 
 @Component({
   selector: 'app-dashboard',
@@ -7,27 +8,13 @@ import {Router} from "@angular/router";
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent {
-  btnProject: boolean = true;
-  btnTask: boolean = true;
-  btnUser: boolean = true;
 
-  constructor(private _router: Router ) {}
+  constructor(private _router: Router) {}
 
   public get currentUrl() {
     console.log(this._router.url);
     return this._router.url;
   }
 
-  public showProject() {
-    this.btnProject = !this.btnProject;
-  }
-
-  showTask() {
-    this.btnTask = !this.btnTask;
-  }
-
-  showUser() {
-    this.btnUser = !this.btnUser;
-  }
-
+  protected readonly ProjectComponent = ProjectComponent;
 }

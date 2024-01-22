@@ -1,8 +1,8 @@
 import {Injectable, Injector} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {Client} from "./client";
-import {Countries} from "./countries";
+import {Country} from "./save-client/save-client.component";
+import {Client} from "./client.component";
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +10,8 @@ import {Countries} from "./countries";
 export class ClientService {
   private uri: string = "/api/project-manage/clients";
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) {
+  }
 
   public save(client: Client) {
     return this.httpClient.post(this.uri, client);
@@ -20,7 +21,7 @@ export class ClientService {
     return this.httpClient.put(this.uri, client);
   }
 
-  public delete(client:Client) {
+  public delete(client: Client) {
     return this.httpClient.delete(`${this.uri}/${client.id}`);
   }
 
@@ -28,11 +29,11 @@ export class ClientService {
     return this.httpClient.get<Client[]>(this.uri);
   }
 
-  public findById(client:Client){
-    return this.httpClient.get(`${this.uri}/${client.id}`);
+  public findById(id: string) {
+    return this.httpClient.get(`${this.uri}/${id}`);
   }
 
-  public findAllCountries():Observable<Countries[]>{
-    return this.httpClient.get<Countries[]>("/assets/json/countries.json");
+  public findAllCountries(): Observable<Country[]> {
+    return this.httpClient.get<Country[]>("/assets/json/countries.json");
   }
 }

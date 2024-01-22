@@ -1,84 +1,101 @@
-import {ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
+import {AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
 import {ClientService} from "./client.service";
-import {Client} from "./client";
-import {Router} from "@angular/router";
-import {NgForm} from "@angular/forms";
-import {ProjectService} from "../project/project.service";
-import {Countries} from "./countries";
-import {group} from "@angular/animations";
-import {concatMap, groupBy, mergeMap, of, toArray, zip} from "rxjs";
+import {MatTableDataSource} from "@angular/material/table";
+import {MatPaginator} from "@angular/material/paginator";
+import {MatSort} from "@angular/material/sort";
+
+export class Client {
+  id?: string;
+  name?: string;
+  country?: string;
+  budget?: number;
+  createdAt?: Date;
+}
 
 @Component({
   selector: 'app-client',
   templateUrl: './client.component.html',
   styleUrls: ['./client.component.css']
 })
-export class ClientComponent implements OnInit {
-  public addClient: boolean = true;
-  public countries: Countries[] = [];
-  public clients: Client[] = [{name:''}];
-  public client: Client;
-  public clientFindById?: Client;
+export class ClientComponent implements OnInit, AfterViewInit {
+  public displayedColumns: string[] = ['name', 'country', 'budget', 'createdAt', 'actions'];
+  public dataSource = new MatTableDataSource<Client>();
+  public clients: Client[] = [];
+  public operationSave: boolean = false;
+  public operationUpdate: boolean = false;
+  public operationDelete: boolean = false;
 
-  constructor(private router: Router, private clientService: ClientService) {
-    this.client = new Client();
+
+  @ViewChild(MatPaginator) paginator?: MatPaginator;
+  @ViewChild(MatSort) sort?: MatSort;
+
+  constructor(private clientService: ClientService) {
   }
 
-  ngOnInit(): void {
+  public ngAfterViewInit() {
+    // @ts-ignore
+    this.dataSource.paginator = this.paginator;
+    // @ts-ignore
+    this.dataSource.sort = this.sort;
+  }
+
+  public ngOnInit(): void {
     this.findAll();
-    this.findAllCountries();
-  }
-
-  public save(form: NgForm) {
-    this.clientService.save(this.client).subscribe(result => {
-      this.gotoClientList();
-      this.findAll();
-      form.resetForm();
-      this.addClient = true;
-    });
-  }
-
-  public update(client: Client) {
-    this.clientService.update(client).subscribe(result => {
-      this.gotoClientList();
-      this.findAll();
-      this.addClient = true;
-    });
-  }
-
-  public delete(client: Client) {
-    this.clientService.delete(client).subscribe(result => {
-      this.gotoClientList();
-      this.findAll();
-    });
   }
 
   public findAll() {
     this.clientService.findAll().subscribe(data => {
-        this.clients = data;
-      },
-      error => {
-        console.log('Fetching error : ' + error);
+      this.clients = data;
+
+      this.clients.sort((a: Client, b: Client) => {
+        // @ts-ignore
+        return new Date(b.createdAt) - new Date(a.createdAt);
       });
-  }
 
-  public findById(client: Client) {
-    return this.clientService.findById(client).subscribe(result => {
-      this.clientFindById = result;
+      this.dataSource = new MatTableDataSource<Client>(this.clients);
+      // @ts-ignore
+      this.dataSource.paginator = this.paginator;
+      // @ts-ignore
+      this.dataSource.sort = this.sort;
     });
   }
 
-  public findAllCountries() {
-    this.clientService.findAllCountries().pipe().subscribe(data => {
-      this.countries = data;
-    });
+  public applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
   }
 
-  public gotoClientList() {
-    this.router.navigate(['/clients']);
+  public hiddenAlertSave() {
+    let alert = document.getElementById('alertSave');
+    // @ts-ignore
+    alert.style.display = 'block';
+    setTimeout(() => {
+      // @ts-ignore
+      alert.style.display = 'none';
+    }, 5000);
   }
 
-  public showForm() {
-    this.addClient = !this.addClient;
+  public hiddenAlertUpdate() {
+    let alert = document.getElementById('alertUpdate');
+    // @ts-ignore
+    alert.style.display = 'block';
+    setTimeout(() => {
+      // @ts-ignore
+      alert.style.display = 'none';
+    }, 5000);
+  }
+
+  public hiddenAlertDelete() {
+    let alert = document.getElementById('alertDelete');
+    // @ts-ignore
+    alert.style.display = 'block';
+    setTimeout(() => {
+      // @ts-ignore
+      alert.style.display = 'none';
+    }, 5000);
   }
 }

@@ -1,3 +1,0 @@
-ma.profile.controllers.GenericController#findAll()Ljava/util/List;
-==
-findAll ma.profile.services.GenericService#findAll()Ljava/util/List;

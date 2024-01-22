@@ -1,15 +1,7 @@
-input:focus {
-  border-color: #00ACC1 !important;
-}
-
 .btn-show {
   position: absolute;
   right: 1%;
   top: 44%;
-}
-
-.card .row:first-child .col-md-12:first-child {
-  position: relative;
 }
 
 .card .row:first-child .col-md-12:first-child:before {
@@ -21,14 +13,14 @@ input:focus {
   bottom: 0;
 }
 
-.card .btn-sign-in button.btn {
-  background-color: #00ACC1;
-  color: rgba(255, 255, 255, .9) !important;
-  transition: .5s;
+.card .row:first-child .col-md-12:first-child {
+  position: relative;
 }
 
-.card .btn-sign-in button.btn:hover {
-  background-color: rgb(0, 155, 173);
+.card .btn-sign-in button.btn {
+  background-color: #344A53;
+  color: rgba(255, 255, 255, .9) !important;
+  transition: .5s;
 }
 
 .card .row:last-child p a {
