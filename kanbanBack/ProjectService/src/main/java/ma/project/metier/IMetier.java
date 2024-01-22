@@ -1,6 +1,6 @@
-package ma.auth.metier;
+package ma.project.metier;
 
-import ma.auth.mother.T;
+import ma.project.mother.T;
 
 import java.util.List;
 

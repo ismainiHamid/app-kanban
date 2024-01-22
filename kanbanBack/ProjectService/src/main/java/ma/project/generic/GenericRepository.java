@@ -1,6 +1,6 @@
-package ma.auth.generic;
+package ma.project.generic;
 
-import ma.auth.mother.T;
+import ma.project.mother.T;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 

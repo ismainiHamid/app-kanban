@@ -1,7 +1,6 @@
-package ma.auth.repositories.implementaions;
+package ma.auth.role;
 
-import ma.auth.models.implemenations.Role;
-import ma.auth.repositories.GenericRepository;
+import ma.auth.generic.GenericRepository;
 
-public interface RoleRepository extends GenericRepository<Role> {
+public interface RoleRepository extends GenericRepository<RoleModel> {
 }

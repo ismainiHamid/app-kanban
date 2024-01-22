@@ -1,8 +1,8 @@
-package ma.auth.generic;
+package ma.project.generic;
 
 import jakarta.persistence.*;
 import lombok.*;
-import ma.auth.mother.T;
+import ma.project.mother.T;
 
 import java.io.Serializable;
 import java.util.Date;

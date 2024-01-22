@@ -1,8 +1,10 @@
-package ma.auth.models.implemenations;
+package ma.auth.role;
 
 import jakarta.persistence.*;
 import lombok.*;
-import ma.auth.models.GenericModel;
+import ma.auth.generic.GenericModel;
+import ma.auth.user.User;
+import ma.auth.user.UserModel;
 
 import java.util.List;
 
@@ -13,10 +15,10 @@ import java.util.List;
 @Getter(AccessLevel.PUBLIC)
 @Setter(AccessLevel.PUBLIC)
 @Builder(toBuilder = true)
-public class Role extends GenericModel {
+public class RoleModel extends GenericModel {
     @Column(nullable = false, unique = true, length = 25)
     private String name;
 
     @ManyToMany(mappedBy = "roles", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
-    private List<User> users;
+    private List<UserModel> users;
 }

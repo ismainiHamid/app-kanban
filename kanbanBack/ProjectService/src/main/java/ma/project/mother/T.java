@@ -1,4 +1,4 @@
-package ma.auth.mother;
+package ma.project.mother;
 
 import java.util.Date;
 

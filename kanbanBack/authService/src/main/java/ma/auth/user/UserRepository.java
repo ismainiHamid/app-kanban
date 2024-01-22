@@ -1,7 +1,6 @@
-package ma.auth.repositories.implementaions;
+package ma.auth.user;
 
-import ma.auth.models.implemenations.User;
-import ma.auth.repositories.GenericRepository;
+import ma.auth.generic.GenericRepository;
 
-public interface UserRepository extends GenericRepository<User> {
+public interface UserRepository extends GenericRepository<UserModel> {
 }

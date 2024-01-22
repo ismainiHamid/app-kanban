@@ -1,18 +1,12 @@
-package ma.auth.controllers.implementations;
+package ma.auth.user;
 
-import ma.auth.controllers.GenericController;
-import ma.auth.models.implemenations.User;
-import ma.auth.services.implementations.UserService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import ma.auth.generic.GenericController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Objects;
-
 @RestController
 @RequestMapping(path = "/users")
-public class UserController extends GenericController<User> {
+public class UserController extends GenericController<UserModel> {
     public UserController(UserService userService) {
         super(userService);
     }

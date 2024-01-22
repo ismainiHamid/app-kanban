@@ -1,7 +1,7 @@
-package ma.auth.generic;
+package ma.project.generic;
 
 import lombok.AllArgsConstructor;
-import ma.auth.mother.T;
+import ma.project.mother.T;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

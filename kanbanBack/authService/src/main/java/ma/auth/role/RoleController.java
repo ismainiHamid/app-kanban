@@ -1,14 +1,12 @@
-package ma.auth.controllers.implementations;
+package ma.auth.role;
 
-import ma.auth.controllers.GenericController;
-import ma.auth.models.implemenations.Role;
-import ma.auth.services.implementations.RoleService;
+import ma.auth.generic.GenericController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(path = "/roles")
-public class RoleController extends GenericController<Role> {
+public class RoleController extends GenericController<RoleModel> {
     public RoleController(RoleService roleService) {
         super(roleService);
     }

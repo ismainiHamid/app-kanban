@@ -1,11 +1,12 @@
-package ma.auth.models.implemenations;
+package ma.auth.user;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 import lombok.*;
-import ma.auth.models.GenericModel;
+import ma.auth.generic.GenericModel;
+import ma.auth.role.Role;
 
 import java.util.List;
 
@@ -16,7 +17,7 @@ import java.util.List;
 @Getter(AccessLevel.PUBLIC)
 @Setter(AccessLevel.PUBLIC)
 @Builder(toBuilder = true)
-public class User extends GenericModel {
+public class UserModel extends GenericModel {
     @Column(nullable = false, unique = true)
     private String username;
 

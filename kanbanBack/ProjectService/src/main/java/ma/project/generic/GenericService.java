@@ -1,9 +1,9 @@
-package ma.auth.generic;
+package ma.project.generic;
 
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
-import ma.auth.metier.IMetier;
-import ma.auth.mother.T;
+import ma.project.metier.IMetier;
+import ma.project.mother.T;
 
 import java.util.Date;
 import java.util.List;
