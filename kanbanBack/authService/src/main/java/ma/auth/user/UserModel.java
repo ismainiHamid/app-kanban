@@ -6,7 +6,7 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 import lombok.*;
 import ma.auth.generic.GenericModel;
-import ma.auth.role.Role;
+import ma.auth.role.RoleModel;
 
 import java.util.List;
 
@@ -25,5 +25,5 @@ public class UserModel extends GenericModel {
     private String password;
 
     @ManyToMany
-    private List<Role> roles;
+    private List<RoleModel> roles;
 }

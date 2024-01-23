@@ -3,7 +3,6 @@ package ma.auth.role;
 import jakarta.persistence.*;
 import lombok.*;
 import ma.auth.generic.GenericModel;
-import ma.auth.user.User;
 import ma.auth.user.UserModel;
 
 import java.util.List;

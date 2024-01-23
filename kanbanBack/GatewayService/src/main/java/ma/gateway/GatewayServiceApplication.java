@@ -21,14 +21,13 @@ public class GatewayServiceApplication {
                 .route("profiling-manage", r -> r
                         .path("/api/auth-service/**")
                         .uri("http://localhost:6060")
-
                 )
                 .route("project-manage", r -> r
-                        .path("/api/project-manage/**")
+                        .path("/api/project-service/**")
                         .uri("http://localhost:6565")
                 )
                 .route("kanban-manage", r -> r
-                        .path("/api/kanban-manage/**")
+                        .path("/api/task-service/**")
                         .uri("http://localhost:7070")
                 )
                 .build();
